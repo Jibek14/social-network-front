@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.page-link {
+    background: linear-gradient(to right, #ffcc00, #ff9900); 
+    border: none;
+    border-radius: 50%; 
+    color: white;
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.25rem; 
+}
+
+.page-link:hover {
+    background: linear-gradient(to right, #ff9900, #ff6600); 
+    color: white;
+}
+
+.page-item.active .page-link {
+    background: linear-gradient(to right, #ff6600, #ff3300); 
+    color: white;
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(to right, #ffcc00, #ff9900); 
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(to right, #ff9900, #ff6600); 
+}
